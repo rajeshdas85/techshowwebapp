@@ -30,10 +30,10 @@
 myecrrepo.azurecr.io/webfrontend
 
 
-#Create chart
+# Create chart
 helm create webfrontend
 
-#Install chart
+# Install chart
 helm install webfrontend webfrontend/
 
 # Upgrate chart
